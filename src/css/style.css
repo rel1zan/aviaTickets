@@ -10,10 +10,13 @@
   justify-items: center;
 }
 
+<<<<<<< HEAD
 .justify-items-between {
   justify-content: space-between;
 }
 
+=======
+>>>>>>> eaa09bdc3b96eebc92c7b246dd197ff436525d44
 .ml-auto {
   margin-left: auto;
 }
@@ -23,8 +26,13 @@
 }
 
 .mx-auto {
+<<<<<<< HEAD
   margin-left: auto;
   margin-right: auto;
+=======
+  margin-right: auto;
+  margin-left: auto;
+>>>>>>> eaa09bdc3b96eebc92c7b246dd197ff436525d44
 }
 
 /* Header styles */
@@ -32,6 +40,7 @@
   position: static;
 }
 
+<<<<<<< HEAD
 .header .currency-select input.select-dropdown {
   margin: 0;
   color: #fff;
@@ -48,10 +57,29 @@
 
 .header .currency-select .caret {
   fill: #fff;
+=======
+.header .сurrency-select input.select-dropdown {
+  margin: 0;
+  color: white;
+  border-bottom: none;
+}
+
+.header .сurrency-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .сurrency-select {
+  width: 150px;
+}
+
+.header .сurrency-select .caret {
+  fill: white;
+>>>>>>> eaa09bdc3b96eebc92c7b246dd197ff436525d44
 }
 
 .header .brand-logo {
   font-size: 1.5rem;
+<<<<<<< HEAD
 }
 
 .ticket-card {
@@ -107,3 +135,6 @@
   font-weight: bold;
   font-size: 18px;
 }
+=======
+}
+>>>>>>> eaa09bdc3b96eebc92c7b246dd197ff436525d44

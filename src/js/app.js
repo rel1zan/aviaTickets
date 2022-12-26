@@ -1,5 +1,6 @@
 import '../css/style.css';
 import './plugins';
+<<<<<<< HEAD
 import locations from './store/locations';
 import formUI from './views/form';
 import ticketsUI from './views/tickets';
@@ -39,3 +40,11 @@ document.addEventListener('DOMContentLoaded', e => {
     ticketsUI.renderTickets(locations.lastSearch);
   }
 });
+=======
+import locations from "./store/locations";
+
+locations.init().then(res => {
+    console.log(res);
+    console.log(locations)
+});
+>>>>>>> eaa09bdc3b96eebc92c7b246dd197ff436525d44
